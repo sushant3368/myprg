@@ -4,7 +4,7 @@ print("\tYou are Trapped!!!!! \n \tYou have 3 choices!!!!!")
 print('| A Dragon Room(Type dr) | A Bear Room(Type br) | Exit(Type e) |')
 while True:
     choice = input("Your Choice Here: ")
-    if choice == "dr":
+    if choice == "dr" or "Dragon Room":
         while True:
             print("Do you want to fight a)Fire Dragon or b)Ice Dragon?")
             dragon = input("Which Dragon?: ")
